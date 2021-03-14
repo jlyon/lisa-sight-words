@@ -28,29 +28,11 @@ angular.module('app', [
         $rootScope.config = {
           years: [
             {
-              label: '2019-20',
-              base: 'appZo91w4H8XgpPq7',
-              key: 'keypZ19FEomq5gPWe',
-              table: 'tblvkAveGOAX1czQY'
-            },
-            {
-              label: 'SIPPS 2018-19',
-              base: 'appi58GYei1Bsw8XB',
-              key: 'keypZ19FEomq5gPWe',
-              table: 'tblO1zaGQptBdjSns'
-            },
-            {
-              label: '2018-19',
-              base: 'appWyOO3dIQGwt4wm',
-              key: 'keypZ19FEomq5gPWe',
-              table: 'tblsufiLPPiGhgOWd'
-            },
-            {
-              label: '2017-18',
-              base: 'appKLD3WxfSgA0ad4',
-              key: 'keypZ19FEomq5gPWe',
-              table: 'tblgH4xE9mkglNUDV'
-            },
+              label: '2020-21',
+              base: 'appArZiLlaI2Oor0E',
+              key: 'keypmXJ00DbWmRvx9',
+              table: 'tbl6nqMtXha2zbbqv'
+            }
           ],
           admins: {
             'jeff@albatrossdigital.com': {
@@ -59,29 +41,9 @@ angular.module('app', [
             'lisa.perloff@gmail.com': {
               role: 'admin',
               teacher: 'lisa'
-            },
-            'virginia.mcmanus@lighthousecharter.org': {
-              role: 'admin',
-              teacher: 'virginia'
-            },
-            'ana.garcia@lighthousecharter.or': {
-              role: 'admin',
-              teacher: 'ana'
-            },
-            'daelana.burrell@lighthousecharter.org': {
-              role: 'admin'
-            },
-            'tiffany.do@lighthousecharter.org': {
-              role: 'admin'
-            },
-            'maricruz.martinez@lighthousecharter.org': {
-              role: 'admin'
-            },
-            'robbie.torney@lighthousecharter.org': {
-              role: 'admin'
             }
           },
-          default_year: '2018-19'
+          default_year: '2020-21'
         }
 
         // Handle year changing

@@ -1,6 +1,12 @@
-# Lodestar Assessments
+# Lisa 2021 Assessments
 
 * Data: https://airtable.com/tblgH4xE9mkglNUDV/viwByMCIVEnk9Vews
+
+To watch
+```
+use nvm default
+grunt watch
+```
 
 ## To build
 ```
