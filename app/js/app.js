@@ -35,7 +35,7 @@ angular.module('app', [
             }
           ],
           admins: {
-            'jeff@albatrossdigital.com': {
+            'jeffrey.m.lyon@gmail.com': {
               role: 'admin'
             },
             'lisa.perloff@gmail.com': {
