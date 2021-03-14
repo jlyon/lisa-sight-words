@@ -29,9 +29,9 @@ angular.module('app', [
           years: [
             {
               label: '2020-21',
-              base: 'appArZiLlaI2Oor0E',
+              base: 'appt3M1gC5W7bf5Kh',
               key: 'keypmXJ00DbWmRvx9',
-              table: 'tbl6nqMtXha2zbbqv'
+              table: 'tblZZdvYeco7W2Pa8'
             }
           ],
           admins: {
