@@ -122,7 +122,7 @@ angular.module('311AppParent').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('views/login.html',
-    "<center><h1>Welcome to Lodestar Flashcards</h1><p ng-if=\"!msg\">Please login using your Gmail account.</p><div class=\"alert alert-warning\" ng-if=\"msg\">{{msg}}</div><p class=\"btn-login\"><a href=\"#\" ng-click=\"auth.$signInWithPopup('google');$event.preventDefault();\"><img src=\"images/btn_google_signin_dark_normal_web.png\" alt=\"Login with Google\"></a></p><p><a href=\"#\" ui-sref=\"studentSearch\">Kindergarten Login</a></p></center><style>.btn-login {\n" +
+    "<center><h1>Welcome to Ms. Perloff Flashcards</h1><p ng-if=\"!msg\">Please login using your Gmail account.</p><div class=\"alert alert-warning\" ng-if=\"msg\">{{msg}}</div><p class=\"btn-login\"><a href=\"#\" ng-click=\"auth.$signInWithPopup('google');$event.preventDefault();\"><img src=\"images/btn_google_signin_dark_normal_web.png\" alt=\"Login with Google\"></a></p><p><a href=\"#\" ui-sref=\"studentSearch\">Kindergarten Login</a></p></center><style>.btn-login {\n" +
     "    margin: 20px 0 50px 0;\n" +
     "  }</style>"
   );
