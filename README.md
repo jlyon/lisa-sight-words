@@ -2,11 +2,7 @@
 
 * Data: https://airtable.com/tblgH4xE9mkglNUDV/viwByMCIVEnk9Vews
 
-To watch
-```
-use nvm default
-grunt watch
-```
+Notes: Watching doesn't seem to be working
 
 ## To build
 ```
