@@ -39,8 +39,8 @@ angular.module('app', [
               role: 'admin'
             },
             'lisa.perloff@gmail.com': {
-              role: 'admin',
-              teacher: 'lisa'
+              role: 'admin'
+              // teacher: 'lisa'
             }
           },
           default_year: '2020-21'
