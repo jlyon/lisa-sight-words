@@ -9,6 +9,13 @@ Notes: Watching doesn't seem to be working
 grunt publish
 ```
 
+## Then watch
+```
+cd docs
+http-server
+# Go to http://localhost:8080/
+```
+
 ## To push
 ```
 git push
