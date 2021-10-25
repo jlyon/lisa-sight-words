@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" ng-attr-content="{{metaDescription()}}"/>
     <meta name="keywords" ng-attr-content="{{metaKeywords()}}"/>
-    <title>Ms. Perloff Sight Words Assessments</title>
+    <title>Ms. Perloff Data</title>
     <link rel="stylesheet" href="css/libraries.min.css">
 
     <link rel="stylesheet" href="css/app.min.css">
@@ -50,7 +50,7 @@
         <span class="icon-bar"></span>
       </button>
       -->
-      <span class="navbar-brand"><a href="#" ui-sref="login">Ms. Perloff Sight Words</a></span>
+      <span class="navbar-brand"><a href="#" ui-sref="login">Ms. Perloff Data</a></span>
     </div>
     <ul class="nav navbar-nav" ng-if="firebaseUser.role.role == 'admin'" ng-class="firebaseUser && firebaseUser.role.role == 'admin' ? '' : 'hidden'">
       <li><a ui-sref="students">List Students</a></li>
@@ -107,9 +107,9 @@
 <script>
   // Initialize the Firebase SDK
   var config = {
-    apiKey: 'AIzaSyCdzd-clq3pRJfPzFvR-Sgakc-ocOBQUyc',
-    authDomain: 'lisa-teacher.firebaseapp.com',
-    databaseURL: '<your-database-url>',
+    apiKey: 'AIzaSyDsBiJyEg6YUV8BweAEzRJzEdE7pA5ZePM',
+    authDomain: 'reading-stars.firebaseapp.com',
+    databaseURL: 'reading-stars',
     storageBucket: '<your-storage-bucket>'
   };
   firebase.initializeApp(config);

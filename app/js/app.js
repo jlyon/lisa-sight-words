@@ -41,6 +41,10 @@ angular.module('app', [
             'lisa.perloff@gmail.com': {
               role: 'admin'
               // teacher: 'lisa'
+            },
+            'lperloff@husd.k12.ca.us': {
+              role: 'admin'
+              // teacher: 'lisa'
             }
           },
           default_year: '2020-21'
