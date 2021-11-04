@@ -27,8 +27,7 @@
     <td><input type="checkbox" ng-model="student.selected"></td>
     <td>{{student['LastName']}}, {{student['FirstName']}}</td>
     <td class="hidden-xs-down">{{student.Grade == 0 ? 'K' : student.Grade}}</td>
-    <td class="hidden-xs-down">{{student.ReadingTeacher}}</td>
-    <td class="hidden-xs-down">{{student.Crew}}</td>
+    <td class="hidden-xs-down">{{student.Teacher}}</td>
     <td>
       <a ui-sref="editAssessment({type: 'letters', student: student.id})">
         <span ng-if="student['LastLettersAssessment']"><span class="hidden-xs-down">Last:</span> {{student['LastLettersAssessment'] | date:'M/d/yyyy'}}</span>
